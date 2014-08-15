@@ -1,0 +1,9 @@
+<section class="panel">
+    <div class="video" ng-repeat="video in videos">
+        <header><a href="#/video/{{video.id}}" ng-click="setPanel(1)">{{video.title}}</a></header>
+        <body>
+            {{video.content}}
+        </body>
+        <footer>{{video.footer}}</footer>
+    </div>
+</section>

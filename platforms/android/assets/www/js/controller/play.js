@@ -5,7 +5,7 @@ app.controller('Play', function($scope, VideosService, $routeParams, $rootScope,
 
 	VideosService.get($routeParams['id']).then(function(video) {
 		$scope.video = video;
-		$scope.video.link = $sce.trustAsResourceUrl(video.link);
+		$scope.video.link = $sce.trustAsResourceUrl(String(video.link));
 	}, function(msg) {
 		console.log(msg);
 	});

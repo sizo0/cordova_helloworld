@@ -7,13 +7,11 @@
     to you under the Apache License, Version 2.0 (the
     "License"); you may not use this file except in compliance
     with the License.  You may obtain a copy of the License at
-
     http://www.apache.org/licenses/LICENSE-2.0
-
     Unless required by applicable law or agreed to in writing,
     software distributed under the License is distributed on an
     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-     KIND, either express or implied.  See the License for the
+    KIND, either express or implied.  See the License for the
     specific language governing permissions and limitations
     under the License.
 -->
@@ -27,26 +25,27 @@
         <meta name="msapplication-tap-highlight" content="no" />
         <title>Hello World</title>
     </head>
-    <body ng-app="MyVideos" onload="onLoad();">
-    
+    <body ng-app="MyVideos">
         <header class="header">
-            Vidéos
+            <h1>{{header}}</h1>
         </header>
-
-        <div class="view" ng-view></div>
-
+        <div class="view" ng-controller="Root" ng-view>
+        </div>
         <footer class="footer" ng-controller="navctrl">
             <a href="#home" ng-class="{active: menu=='home'}" ng-click="menu='home'"><i class="icon icon-home"></i></a>
             <a href="#about" ng-class="{active: menu=='about'}" ng-click="menu='about'"><i class="icon icon-about"></i></a>
         </footer>
-
         <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/angular.js"></script>
-        <script type="text/javascript" src="js/angular-route.js"></script>
+        <script type="text/javascript" src="js/libs/jquery.js"></script>
+        <script type="text/javascript" src="js/libs/angular.js"></script>
+        <script type="text/javascript" src="js/libs/angular-route.js"></script>
+        <script type="text/javascript" src="js/libs/iscroll.js"></script>
         <script type="text/javascript" src="js/app.js"></script>
         <script type="text/javascript" src="js/service/service.js"></script>
+        <script type="text/javascript" src="js/controller/root.js"></script>
         <script type="text/javascript" src="js/controller/navctrl.js"></script>
-        <script type="text/javascript" src="js/controller/videos.js"></script>
+        <script type="text/javascript" src="js/controller/home.js"></script>
+        <script type="text/javascript" src="js/controller/about.js"></script>
         <script type="text/javascript" src="js/controller/play.js"></script>
     </body>
 </html>

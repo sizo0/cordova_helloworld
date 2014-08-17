@@ -1,9 +1,11 @@
-<section class="panel">
-    <div class="video" ng-repeat="video in videos">
-        <header><a href="#/video/{{video.id}}" ng-click="setPanel(1)">{{video.title}}</a></header>
-        <body>
-            {{video.content}}
-        </body>
-        <footer>{{video.footer}}</footer>
+<section id="wrapper" class="panel">
+    <div id="scroller">
+    	<div class="video" ng-repeat="video in videos" ng-click="goTo('video/' + video.id)">
+    	    <header>{{video.title}}</header>
+    	    <body>
+    	        {{video.content}}
+    	    </body>
+    	    <footer>{{video.footer}}</footer>
+    	</div>
     </div>
 </section>

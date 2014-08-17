@@ -43,8 +43,13 @@
 /home/sizo0/www-dev/public_html/phonegap/HelloWorld/platforms/android/assets/www/css/reset.css \
 /home/sizo0/www-dev/public_html/phonegap/HelloWorld/platforms/android/assets/www/css/style.css \
 /home/sizo0/www-dev/public_html/phonegap/HelloWorld/platforms/android/assets/www/img/home.png \
+/home/sizo0/www-dev/public_html/phonegap/HelloWorld/platforms/android/assets/www/img/footer.png \
+/home/sizo0/www-dev/public_html/phonegap/HelloWorld/platforms/android/assets/www/img/background.jpg \
+/home/sizo0/www-dev/public_html/phonegap/HelloWorld/platforms/android/assets/www/img/shadow.png \
 /home/sizo0/www-dev/public_html/phonegap/HelloWorld/platforms/android/assets/www/img/info.png \
 /home/sizo0/www-dev/public_html/phonegap/HelloWorld/platforms/android/assets/www/img/logo.png \
+/home/sizo0/www-dev/public_html/phonegap/HelloWorld/platforms/android/assets/www/img/shape.png \
+/home/sizo0/www-dev/public_html/phonegap/HelloWorld/platforms/android/assets/www/img/background.png \
 /home/sizo0/www-dev/public_html/phonegap/HelloWorld/platforms/android/assets/www/json/videos.json \
 /home/sizo0/www-dev/public_html/phonegap/HelloWorld/platforms/android/assets/www/include/about.html \
 /home/sizo0/www-dev/public_html/phonegap/HelloWorld/platforms/android/assets/www/include/home.html \

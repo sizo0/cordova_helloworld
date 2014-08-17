@@ -1,4 +1,4 @@
-app.controller('Videos', function($scope, VideosService, $rootScope) {
+app.controller('Videos', function($scope, VideosService, $rootScope, $location) {
 
 	$scope.videos = [];
 
@@ -7,5 +7,9 @@ app.controller('Videos', function($scope, VideosService, $rootScope) {
 	}, function(msg) {
 		console.log(msg);
 	});
+
+	$scope.goTo = function(url) {
+		$location.url(url);
+	}
 
 });
